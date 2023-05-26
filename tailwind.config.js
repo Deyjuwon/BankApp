@@ -6,7 +6,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sacramento: ['"Sacramento"', ...defaultTheme.fontFamily.sans]
+        sacramento: ['"Sacramento"', ...defaultTheme.fontFamily.sans],
+        montserrat: ['"Montserrat"', ...defaultTheme.fontFamily.sans]
+
       }
     },
   },
