@@ -53,7 +53,7 @@ var AccountRepository = /** @class */ (function () {
     return AccountRepository;
 }());
 var user1 = new Account("NewBank", "Ade Gabriel", 3000, "12000002");
-var user2 = new Account("NewBank", "Adetayo Omotomiwa", 10000, "12000003");
+var user2 = new Account("NewBank", "Sule mana", 10000, "12000003");
 var accounts = new AccountRepository([user1, user2]);
 var currencyUtility = function (number) {
     var CURRENCY_FORMATTER = new Intl.NumberFormat("en-NG", { style: "currency", currency: "NGN", maximumFractionDigits: 0 });

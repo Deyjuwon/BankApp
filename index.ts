@@ -65,7 +65,7 @@ class AccountRepository{
 
 
 const user1 = new Account("NewBank", "Ade Gabriel", 3000, "12000002")
-const user2 = new Account("NewBank", "Adetayo Omotomiwa", 10000, "12000003")
+const user2 = new Account("NewBank", "Sule mana", 10000, "12000003")
 
 const accounts = new AccountRepository([user1, user2]);
 
