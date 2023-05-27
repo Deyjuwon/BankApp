@@ -64,8 +64,8 @@ class AccountRepository{
 }
 
 
-const user1 = new Account("NewBank", "Adejuwon Temitayo", 3000, "12000002")
-const user2 = new Account("NewBank", "Adetayo Omotomiwa", 10000, "0226660175")
+const user1 = new Account("NewBank", "Ade Gabriel", 3000, "12000002")
+const user2 = new Account("NewBank", "Adetayo Omotomiwa", 10000, "12000003")
 
 const accounts = new AccountRepository([user1, user2]);
 
@@ -143,7 +143,7 @@ const transfer = (sectionId: string, user: Account) => {
         const receivingUser = accounts.getAccountByAccountNumber(accountNumber.value);
 
         if(!receivingUser){
-            alert("User Not Found");
+            alert("Account Not found.");
             return;
         }
         user.transfer(amountToSend, receivingUser);
